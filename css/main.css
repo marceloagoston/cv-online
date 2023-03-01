@@ -59,6 +59,10 @@ a{
     color: #1B2D45;
 }
 
+.texto-subrayado-principal{
+    text-decoration: 4px underline #1B2D45; 
+}
+
 .flex-espaciado{
     display: flex;
     justify-content: space-around;
@@ -67,3 +71,14 @@ a{
 .ancho-25{
     width: 25%;
 }
+
+.ancho-30{
+    width: 30%;
+}
+
+@media (max-width: 575px) {
+    .m-f-15{
+        margin-left: 0;
+        margin-top: 0;
+    }
+  }
